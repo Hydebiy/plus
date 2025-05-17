@@ -1,0 +1,102 @@
+.container {
+  color: #2c3e50;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #222;
+  font-size: 26px;
+  margin-bottom: 20px;
+  
+}
+
+.signUpSection {
+  background-color: #9ccbfa;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 10px;
+  color: hwb(0 6% 94%);
+  padding: 10px;
+}
+
+.userSection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #cc3939;
+}
+
+.button {
+  background-color: #aaf797;
+  text-align: center;
+  padding: 10px 15px;
+  color: rgb(8, 8, 8);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.habitInput {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.habitCounts {
+  margin-top: 20px;
+}
+
+.habitList {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 15px;
+}
+
+.habitItem {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.hoverEffect {
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}
+
+.resetButton {
+  text-align: center;
+  margin-top: 20px;
+  background-color: #98f86b;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.info {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #89f2fab7;
+  color: rgb(19, 17, 17);
+  font-size: 15px;
+  border-radius: 5px;
+}
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: hsl(14, 90%, 30%);
+}
